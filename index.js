@@ -33,4 +33,5 @@ app.get("/btc-eth-price", async (req, res, next) => {
 
 app.listen(3002, async () => {
     btcEthData = await btcEth();
+    timestamp = Math.floor(Date.now() / 1000);
 });
