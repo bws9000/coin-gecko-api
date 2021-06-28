@@ -1,0 +1,29 @@
+{
+  "name": "crypto-api",
+  "version": "1.0.0",
+  "description": "coindesk api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bws9000/coindesk-api.git"
+  },
+  "keywords": [
+    "crypto",
+    "coindesk",
+    "api",
+    "developer stuff"
+  ],
+  "author": "Burt Snyder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bws9000/coindesk-api/issues"
+  },
+  "homepage": "https://github.com/bws9000/coindesk-api#readme",
+  "dependencies": {
+    "coingecko-api": "^1.0.10",
+    "express": "^4.17.1"
+  }
+}
